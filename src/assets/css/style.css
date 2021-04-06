@@ -10982,13 +10982,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .ps-table thead {
   border-bottom: 1px solid #ededed;
 }
-.ps-table thead tr th {
-  padding: var(--space-md);
-  border: none;
-  border: none;
-  color: #999999;
-  background-color: #fff;
-}
+
 
 .ps-table tbody > tr > td {
   vertical-align: middle;
@@ -11129,13 +11123,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   }
 }
 
-.ps-table--whishlist thead tr th {
-  background-color: #f2f2f2;
-  text-transform: uppercase;
-  color: #000;
-  text-align: center;
-  font-weight: 600;
-}
 
 .ps-table--whishlist thead tr th:nth-child(2) {
   text-align: left;
@@ -11165,15 +11152,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   }
 }
 
-.ps-table--shopping-cart thead tr th {
-  padding: 15px 20px;
-  text-transform: uppercase;
-  color: #000;
-  text-align: center;
-  font-weight: 600;
-  background-color: #f2f2f2;
-  border: none;
-}
+
 
 .ps-table--shopping-cart thead tr th:first-child {
   text-align: left;
@@ -11248,13 +11227,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   }
 }
 
-.ps-table--vendor thead tr th {
-  padding: 10px 16px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #000;
-  background-color: #f4f4f4;
-}
+
 
 .ps-table--vendor tbody tr td {
   padding: 8px 16px;
@@ -14390,14 +14363,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border: 1px solid #eaeaea;
 }
 
-.ps-section--account-setting .ps-table thead tr th {
-  text-transform: none;
-  font-weight: 500;
-  font-size: 16px;
-  border: 1px solid #eaeaea;
-  border-bottom: none;
-  padding: 10px 15px;
-}
+
 
 .ps-section--account-setting .ps-table tr td {
   padding: 10px 15px;

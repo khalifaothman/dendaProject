@@ -17,6 +17,7 @@ import { FormsModule }   from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ShowProductListComponent } from './show-product-list/show-product-list.component';
 import { RouterModule } from '@angular/router';
+import { ProdByImageComponent } from './prod-by-image/prod-by-image.component';
   
 
 
@@ -31,6 +32,7 @@ import { RouterModule } from '@angular/router';
     ShowProdADMINComponent,
     PostProductComponent,
     ShowProductListComponent,
+    ProdByImageComponent,
     
   ],
   imports: [
@@ -41,7 +43,7 @@ import { RouterModule } from '@angular/router';
     FontAwesomeModule,
     FormsModule,
     ReactiveFormsModule ,
-    
+    RouterModule
     
   ],
   providers: [],

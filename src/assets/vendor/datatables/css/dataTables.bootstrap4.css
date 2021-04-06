@@ -179,28 +179,28 @@ table.dataTable.table-sm .sorting_desc:after {
 
 table.table-bordered.dataTable th,
 table.table-bordered.dataTable td {
-  border-left-width: 0 !important;
+  border-left-width: 0;
 }
 table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child,
 table.table-bordered.dataTable td:last-child,
 table.table-bordered.dataTable td:last-child {
-  border-right-width: 0 !important;
+  border-right-width: 0;
 }
 table.table-bordered.dataTable tbody th,
 table.table-bordered.dataTable tbody td {
-  border-bottom-width: 0 !important;
+  border-bottom-width: 0;
 }
 
 div.dataTables_scrollHead table.table-bordered {
-  border-bottom-width: 0!important;
+  border-bottom-width: 0;
 }
 
 div.table-responsive > div.dataTables_wrapper > div.row {
-  margin: 0 !important;
+  margin: 0;
 }
 div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child {
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child {
-  padding-right: 0!important;
+  padding-right: 0;
 }

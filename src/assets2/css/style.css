@@ -70,7 +70,10 @@
 
     - 5.1.  General
     - 5.2.  Data Tables
-    - 5.3.  Table Filters
+    - 5.3.  Table Filter
+
+
+    s
 
 
 
@@ -4495,10 +4498,12 @@ Pills vertical
 
 .table {
     margin-bottom: 0px;
+    display:table-header-group !important;
 }
 
 .table td,
 .table th {
+   
     padding: 10px;
     vertical-align: middle;
     border-top: 1px solid #e6e6f2;

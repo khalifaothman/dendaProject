@@ -10164,9 +10164,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #adb5bd;
     page-break-inside: avoid;
   }
-  thead {
-    display: table-header-group;
-  }
+  
   tr,
   img {
     page-break-inside: avoid;

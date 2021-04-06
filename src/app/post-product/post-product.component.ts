@@ -10,24 +10,27 @@ import { ProdserviceAdmin } from '../service/serviceProduct'
     ]
  
 })
+
 export class PostProductComponent implements OnInit {
 
-
+  promotion:any;
+  produithome:any;
 
   constructor(private ProductService: ProdserviceAdmin) { }
 
   ngOnInit(): void {
   }
-  ajouterProduit(name:String,promotion:boolean,pourcenpromotion:number,quantity:number,dateDeFin:Date,datedebutpromotion:Date,produithome:boolean,categoryID:Category,description:string,userID:user,price:number,image:string,creationDate:Date){
+  ajouterProduit(name:String,pourcenpromotion:String,quantity:String,dateDeFin:String,datedebutpromotion:any,produithome:boolean,categoryID:any,description:string,userID:any,price:any,image:string,creationDate:any){
     let id: number=0;
+    console.log(this.promotion);
     const dep: Product = {
       id:id,
       name: name,
-      promotion: promotion,
-      produithome:produithome,
-      pourcenpromotion: pourcenpromotion,
-      quantity: quantity,
-      dateDeFin: dateDeFin,
+      promotion: true,
+      produithome:true,
+      pourcenpromotion: Number(pourcenpromotion),
+      quantity: Number(quantity),
+      dateDeFin:new Date(Date.parse(Date())),
       datedebutpromotion:datedebutpromotion,
       categoryID:categoryID,
       description:description,

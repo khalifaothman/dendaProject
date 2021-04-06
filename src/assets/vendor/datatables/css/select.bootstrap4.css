@@ -85,9 +85,9 @@ table.dataTable tbody th.select-checkbox:before {
 table.dataTable tr.selected td.select-checkbox:after,
 table.dataTable tr.selected th.select-checkbox:after {
   content: '\2714';
-  margin-top: -11px !important;
-  margin-left: -4px !important;
-  text-align: center !important;
+  margin-top: -11px;
+  margin-left: -4px;
+  text-align: center;
   text-shadow: 1px 1px #B0BED9, -1px -1px #B0BED9, 1px -1px #B0BED9, -1px 1px #B0BED9;
 }
 
@@ -99,8 +99,8 @@ div.dataTables_wrapper span.select-item {
 @media screen and (max-width: 640px) {
   div.dataTables_wrapper span.select-info,
   div.dataTables_wrapper span.select-item {
-    margin-left: 0 !important;
-    display: block !important;
+    margin-left: 0;
+    display: block;
   }
 }
 table.dataTable tbody tr.selected,
